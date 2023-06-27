@@ -22,9 +22,9 @@
  *   of numbers.
  * @param {number} maxLen Maximum length. Sequences longer than `maxLen` will be
  *   truncated. Sequences shorter than `maxLen` will be padded.
- * @param {'pre'|'post'} padding Padding type.
- * @param {'pre'|'post'} truncating Truncation type.
- * @param {number} value Padding value.
+ * @param {'pre'|'post'} padding Padding type, default to 'pre'.
+ * @param {'pre'|'post'} truncating Truncation type, default to 'pre'.
+ * @param {number} value Padding value, default to 0 (which usually reserve for padding)
  */
 export function pad_sequences (vectors, maxLen, padding = 'pre', truncating = 'pre', value = 0) {
   const validVector = Array.isArray(vectors) && vectors.every(Array.isArray)
