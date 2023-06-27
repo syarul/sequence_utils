@@ -1,0 +1,20 @@
+{
+  "name": "sequence_utils",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A simple utility to pad and truncate arrays to the same length",
+  "main": "sequence_utils.js",
+  "scripts": {
+    "test": "node sequence_utils.test.js"
+  },
+  "keywords": [
+    "tenselflow",
+    "machine",
+    "learning",
+    "data",
+    "science"
+  ],
+  "author": "Shahrul Nizam Selamat <hottincup@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {}
+}
