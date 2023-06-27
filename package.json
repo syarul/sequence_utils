@@ -1,5 +1,5 @@
 {
-  "name": "sequence_utils",
+  "name": "array-sequence-utils",
   "version": "0.0.1",
   "type": "module",
   "description": "A simple utility to pad and truncate arrays to the same length",
