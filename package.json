@@ -1,20 +1,29 @@
 {
-  "name": "array-sequence-utils",
-  "version": "0.0.1",
+  "name": "@syarul/array-sequence-utils",
+  "version": "0.0.3",
   "type": "module",
   "description": "A simple utility to pad and truncate arrays to the same length",
   "main": "sequence_utils.js",
   "scripts": {
     "test": "node sequence_utils.test.js"
   },
+  "devDependencies": {},
   "keywords": [
-    "tenselflow",
-    "machine",
-    "learning",
-    "data",
-    "science"
+    "tenserflow",
+    "machine learning",
+    "data science"
   ],
   "author": "Shahrul Nizam Selamat <hottincup@gmail.com>",
   "license": "Apache-2.0",
-  "devDependencies": {}
+  "bugs": {
+    "url": "https://github.com/syarul/sequence_utils/issues"
+  },
+  "homepage": "https://github.com/syarul/sequence_utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syarul/sequence_utils"
+  },
+  "publishConfig": {
+    "@syarul:registry": "https://npm.pkg.github.com"
+  }
 }
