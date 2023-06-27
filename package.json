@@ -1,6 +1,6 @@
 {
   "name": "@syarul/array-sequence-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "A simple utility to pad and truncate arrays to the same length",
   "main": "sequence_utils.js",

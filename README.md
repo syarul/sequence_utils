@@ -23,10 +23,8 @@ console.log(pad_sequences(sequences, 4, 'post', 'post'))
 
 ## Params
 
- * @param {number[][]} vectors The sequences represented as an array of array
- *   of numbers.
- * @param {number} maxLen Maximum length. Sequences longer than `maxLen` will be
- *   truncated. Sequences shorter than `maxLen` will be padded.
+ * @param {number[][]} vectors The sequences represented as an array of array of numbers.
+ * @param {number} maxLen Maximum length. Sequences longer than `maxLen` will be truncated. Sequences shorter than `maxLen` will be padded.
  * @param {'pre'|'post'} padding Padding type, default to 'pre'.
  * @param {'pre'|'post'} truncating Truncation type, default to 'pre'.
  * @param {number} value Padding value, default to 0 (which usually reserve for padding)
